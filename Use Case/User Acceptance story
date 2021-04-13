@@ -1,0 +1,26 @@
+
+Scenario 1: Payment Interface
+Given the correct credit card name, number, expiration date, or CCV you will be able to
+successfully make the purchase.
+Scenario 2: Payment Interface
+Given the incorrect credit card name, number, expiration date, or CCV you won’t be able to
+successfully make the purchase.
+Scenario 1: Billing and shipping
+Given the correct name, address, postal code, phone number, and email address the
+item will be delivered to the right place. It will ask the user to verify the address and if selected
+yes the purchase will be complete and an email will be sent out automatically to the customers.
+Scenario 2: Billing and shipping
+Given the correct name, address, postal code, phone number, and email address the
+item will be delivered to the right place. It will ask the user to verify the address and if selected
+no the customer will be required to fix the address.
+Scenario 3: Billing and shipping
+Given the incorrect name, address, postal code, phone number, or email address, and if
+they selected yes to the verification of the billing information by accident when it’s incorrect, the
+item might not get delivered to the right place. However, the customer can call or email the
+business to fix this problem.
+Scenario 1: Contact Interface
+Given the contact page, customers are able to reach through email or phone number of
+the business if they have any issue with the purchase.
+Scenario 1: Review Interface
+Given the review page, customers are able to leave feedback on the items. It will ask the
+users to rate and leave feedback.
